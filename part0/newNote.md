@@ -14,6 +14,6 @@ sequenceDiagram;
     end Note;
     browser->>server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/data.json;
     server->>browser: [{ content: "HTML is easy", date: "2019-05-23" }, ...];
-    Note over browser: browser executes the event handler <br /> that renders notes to display
+    Note over browser: browser executes the event handler <br /> that renders notes to display 
     end Note;
 ```
