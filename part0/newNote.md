@@ -10,10 +10,10 @@ sequenceDiagram;
     server->>browser: main.css;
     browser->>server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/main.js;
     server->>browser: main.js;
-    Note over browser: browser starts executing js-code <br />that requests JSON data from server 
+    Note over browser: browser starts executing js-code <br />that requests JSON data from server;
     end Note;
     browser->>server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/data.json;
     server->>browser: [{ content: "HTML is easy", date: "2019-05-23" }, ...];
-    Note over browser: browser executes the event handler <br /> that renders notes to display 
+    Note over browser: browser executes the event handler <br /> that renders notes to display;
     end Note;
 ```
