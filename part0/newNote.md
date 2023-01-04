@@ -3,7 +3,7 @@ sequenceDiagram;
     participant browser;
     participant server;
     browser->>server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note;
-    server->>browser: location: /exampleapp/notes;
+    server->>browser: location: https://studies.cs.helsinki.fi/exampleapp/notes;
     browser->>server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/notes;
     server->>browser: HTML-code;
     browser->>server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/main.css;
