@@ -46,6 +46,8 @@ app.use(morgan((tokens, req, res) =>  ([
 
 app.use(cors());
 
+app.use(express.static('build'));
+
 app.get('/info', (req, res) => {
     res.send(`<p>Phonebook has info for ${persons.length} people</br>${(new Date(Date.now())).toString()}</p>`)
 })

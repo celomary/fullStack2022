@@ -1,5 +1,5 @@
 # phonebook_backend
-phonebook backend exercise from fullStack 2023 from open university
+phonebook backend exercise from fullStack 2023 by open university
 ### 3.10 phonebook backend step10
 Deploy the backend to the internet, for example to Fly.io or Render.
 
