@@ -1,4 +1,4 @@
-# phonebook_backend
+# phonebook_fullastack
 phonebook fullstack  exercise from fullStack 2023 part3 by open university
 
 ### 3.11 phonebook full stack
@@ -9,5 +9,5 @@ NB If you use Render, make sure the directory build is not gitignored
 Also, make sure that the frontend still works locally (in development mode when started with command npm start).
 
 ### link
-<a href='https://elegant-foal-suit.cyclic.app/api/persons' target='blank'>Go Live</a>
+<a href='https://phonebook-fullastack.onrender.com/' target='blank'>Go Live</a>
 
